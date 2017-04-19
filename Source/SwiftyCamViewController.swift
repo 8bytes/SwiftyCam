@@ -981,7 +981,7 @@ extension SwiftyCamViewController {
 
 	/// Handle single tap gesture
 
-	 func singleTapGesture(tap: UITapGestureRecognizer) {
+	 open func singleTapGesture(tap: UITapGestureRecognizer) {
 		guard tapToFocus == true else {
 			// Ignore taps
 			return
